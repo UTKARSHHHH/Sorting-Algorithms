@@ -1,20 +1,70 @@
-##### Sorting-Algorithms
->**1.Selection Sort
->2.Bubble Sort(iterative)
->3.Bubble Sort(recursive)
->4.Insertion Sort(iterative)
->5.Insertion Sort(recursive)
->6.Merge Sort
->7.Quick Sort
+##### Sorting-Algorithms 
+<ul>
+<li>Selection Sort</li>
+<li>Bubble Sort(iterative)</li>
+<li>Bubble Sort(recursive)</li>
+<li>Insertion Sort(iterative)</li>
+<li>Insertion Sort(recursive)</li>
+<li>Merge Sort</li>
+<li>Quick Sort</li>
+</ul>  
 
-<P> Time Complexity	of =>              Best	       	Average	        Worst	
---------------------              --------         ---------      ---------
-Selection Sort						Ω(n^2)			θ(n^2)			O(n^2)
-Bubble Sort							Ω(n)			θ(n^2)			O(n^2)
-Insertion Sort						Ω(n)			θ(n^2)			O(n^2)
-Heap Sort							Ω(n log(n))		θ(n log(n))		O(n log(n))
-Quick Sort							Ω(n log(n))		θ(n log(n))		O(n^2)
-Merge Sort							Ω(n log(n))		θ(n log(n))		O(n log(n))
-Bucket Sort							Ω(n+k)			θ(n+k)			O(n^2)
-Radix Sort							Ω(nk)			θ(nk)			O(nk)
-</P>
+<h2>Time Complexities</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Algorithms</th>
+    <th>Best</th>
+    <th>Average</th>
+    <th>Worst</th>
+  </tr>
+  <tr>
+    <td>Selection Sort</td>
+    <td>Ω(n^2)</td>
+    <td>θ(n^2)</td>
+    <td>O(n^2)</td>
+  </tr>
+  <tr>
+    <td>Bubble Sort	</td>
+    <td>Ω(n)</td>
+    <td>θ(n^2)</td>
+    <td>O(n^2)</td>
+  </tr>
+  <tr>
+    <td>Insertion Sort</td>
+    <td>Ω(n)</td>
+    <td>θ(n^2)</td>
+    <td>O(n^2)</td>
+  </tr>
+  <tr>
+    <td>Merge Sort</td>
+    <td>Ω(n log(n))</td>
+    <td>θ(n log(n))</td>
+    <td>O(n log(n))</td>
+  </tr>
+  <tr>
+    <td>Quick Sort</td>
+    <td>Ω(n log(n))</td>
+    <td>θ(n log(n))</td>
+    <td>O(n^2)</td>
+  </tr>
+  <tr>
+    <td>Heap Sort</td>
+    <td>Ω(n log(n))</td>
+    <td>θ(n log(n))</td>
+    <td>O(n log(n))</td>
+  </tr>
+  <tr>
+    <td>Bucket Sort	</td>
+    <td>Ω(n+k)</td>
+    <td>θ(n+k)</td>
+    <td>O(n^2)</td>
+  </tr>
+  <tr>
+    <td>Radix Sort</td>
+    <td>Ω(nk)</td>
+    <td>θ(nk)</td>
+    <td>O(nk))</td>
+  </tr>
+</table>
+
