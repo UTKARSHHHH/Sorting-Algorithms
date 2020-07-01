@@ -5,4 +5,4 @@
 4.Insertion Sort(iterative)
 5.Insertion Sort(recursive)
 6.Merge Sort
-7.Quick SOrt
+7.Quick Sort
